@@ -1,0 +1,18 @@
+alt + w
+	firefox
+alt + equal
+	amixer sset Master 5%+
+alt + minus
+	amixer sset Master 5%-
+alt + a
+	st bash scripts/bins.sh
+alt + t
+	telegram-desktop
+super + p
+	mpv $(xclip -o)
+Print
+	maim | xclip -selection clipboard -t /image/png
+ctrl + Print
+	maim -s | xclip -selection clipboard -t /image/png
+alt + m
+  $HOME/utilities/scripts/mount.sh
