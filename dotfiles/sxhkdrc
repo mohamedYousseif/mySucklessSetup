@@ -1,5 +1,5 @@
 alt + w
-	firefox
+	$BROWSER
 alt + equal
 	amixer sset Master 5%+
 alt + minus
